@@ -1,2 +1,2 @@
 # EstebanOrduna.github.io
-Public site
+Personal portfolio
