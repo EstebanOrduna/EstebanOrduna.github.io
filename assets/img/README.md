@@ -1,0 +1,1 @@
+Esta carpeta se utiliza para almacenar todas las imágenes utilizadas en el sitio.

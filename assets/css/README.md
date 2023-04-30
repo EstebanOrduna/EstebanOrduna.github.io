@@ -1,0 +1,1 @@
+Esta carpeta se utiliza para almacenar los archivos CSS que definen la apariencia visual del sitio.

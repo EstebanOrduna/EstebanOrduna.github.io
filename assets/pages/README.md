@@ -1,0 +1,1 @@
+Esta carpeta se utiliza para almacenar todas las páginas adicionales del sitio, como la página de contacto, la página de acerca de, la página de productos, etc.

@@ -1,0 +1,1 @@
+Esta carpeta se utiliza para almacenar los archivos JavaScript que se utilizan para añadir interactividad al sitio.

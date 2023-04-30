@@ -1,0 +1,1 @@
+Esta carpeta se utiliza para almacenar fragmentos de código reutilizable que se pueden incluir en múltiples páginas, como encabezados, pies de página, menús de navegación, etc.

@@ -1,0 +1,1 @@
+Esta carpeta se utiliza para almacenar todos los recursos del sitio, como imágenes, archivos CSS, archivos JavaScript, fuentes, etc.

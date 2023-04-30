@@ -1,0 +1,1 @@
+Esta carpeta se utiliza para almacenar las fuentes utilizadas en el sitio.

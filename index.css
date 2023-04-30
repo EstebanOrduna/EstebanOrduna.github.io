@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.container{
+    background: whitesmoke;
+    color: rgb(15,15,15);
+    padding:100px
+}
+
+h1{
+    margin: 300px, 0px;
+}
+
+.profile-pic{
+    width:20%;
+    max-height: 200px;
+    border: 1px solid black;
+    border-radius: 20%;
+    object-fit: cover;
+    object-position: 80% 25%;
+}
+
+.profile-pic:hover{
+    border: 1px solid blue;
+}
+
+.centered{
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding:5%;
+}
