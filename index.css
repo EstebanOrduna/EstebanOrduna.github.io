@@ -26,6 +26,7 @@ h1{
 
 .profile-pic:hover{
     border: 1px solid blue;
+    border: 2px solid silver;
 }
 
 .centered{

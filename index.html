@@ -10,6 +10,39 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"s>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
     <main>
         <div class="container">
             <div>
@@ -22,70 +55,69 @@
             </div>
             <section>
                 <h2>Education</h2>
-                <ul>
-                    <li>Mechatronics engineer [Universidad TecMilenio]</li>
-                    <li>Master of Science with a specialty in Manufacturing Systems [ITESM]</li>
-                    <li>Master of Engineering in Information technology and Communication [IEXEtec Universidad]</li>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Mechatronics engineer [Universidad TecMilenio]</li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Master of Science with a specialty in Manufacturing Systems [ITESM]</li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Master of Engineering in Information technology and Communication [IEXEtec Universidad]</li>
                 </ul>
             </section>
-            <section>
-                <div>
-                    <h2>Technologies:</h2>
-                    <h3>Development:</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Excel</li>
-                        <li>CSS</li>
-                        <li>Python</li>
-                        <li>Javascript / NodeJs</li>
+            <div>
+                <h3>Technologies:</h3>
+                <section>
+                    <h4>Development:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Excel: &#9733 &#9733 &#9733 &#9733 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Python: &#9733 &#9733 &#9733 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Javascript / NodeJs: &#9733 &#9733 &#9733 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">HTML: &#9733 &#9733 &#9733 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">CSS: &#9733 &#9733 &#9733 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
                     </ul>
-                    <h3>Databases:</h3>
-                    <ul>
-                        <li>MySQL</li>
-                        <li>PostgresSQL</li>
-                        <li>SQL Server</li>
-                        <li>JSON</li>
+                    <h4>Databases:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">MySQL<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">PostgresSQL<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">SQL Server<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">JSON<span class="badge bg-secondary badge-pill">14</span></li>
                     </ul>
-                    <h3>Automation / Testing:</h3>
-                    <ul>
-                        <li>Cypress.io</li>
-                        <li>Practitest</li>
-                        <li>Selenium (Python)</li>
-                        <li>AutoHotkey</li>
+                    <h4>Automation / Testing:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Cypress.io: &#9733 &#9733 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Practitest<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Selenium (Python): &#9733 &#9733 &#9733 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">AutoHotkey: &#9733 &#9733 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
                     </ul>
-                    <h3>Cybersecurity:</h3>
-                    <ul>
-                        <li>Wireshark</li>
-                        <li>Kali Linux</li>
-                        <li>Shodan</li>
-                        <li>Maltego</li>
-                        <li>Google Dorks</li>
-                        <li>Netcat</li>
-                        <li>Nmap</li>
+                    <h4>Cybersecurity:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Wireshark: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Kali Linux: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Shodan: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Maltego: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Google Dorks: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Netcat: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Nmap: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
                     </ul>
-                    <h3>Embedded systems:</h3>
-                    <ul>
-                        <li>Arduino</li>
+                    <h4>Embedded systems:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Arduino: &#9733 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
                     </ul>
-                    <h3>Design / Manufacturing:</h3>
-                    <ul>
-                        <li>Solidworks</li>
-                        <li>Tinkercad</li>
-                        <li>G code for milling machines</li>
+                    <h4>Design / Manufacturing:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Solidworks: &#9733 &#9733 &#9733 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Tinkercad: &#9734 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">G code: &#9733 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
                     </ul>
-                    <h3>Robotics:</h3>
-                    <ul>
-                        <li>Motoman</li>
-                        <li>Arduino</li>
+                    <h4>Robotics:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Motoman: &#9733 &#9733 &#9733 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Arduino: &#9733 &#9734 &#9734 &#9734 &#9734<span class="badge bg-secondary badge-pill">14</span></li>
                     </ul>
-                    <h3>Soft skills:</h3>
-                    <ul>
-                        <li>Analytic</li>
-                        <li>Patience</li>
-                    </ul>
-                    
-                </div>
-            </section>
+                    <h4>Soft skills:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Analytic<span class="badge bg-secondary badge-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Patience<span class="badge bg-secondary badge-pill">14</span></li>
+                    </ul>    
+                </section>
+            </div>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
