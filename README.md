@@ -1,3 +1,4 @@
 # EstebanOrduna.github.io
-Personal portfolio
+Personal site
+Visit at: https://estebanorduna.github.io/
 <UNDER DEVELOPMENT>
