@@ -23,6 +23,10 @@ body{
     overflow:auto;
 }
 
+main{
+    z-index:-1;
+}
+
 .container{
     background: whitesmoke;
     color: rgb(15,15,15);
