@@ -1,2 +1,2 @@
 console.log('Javascript file is working.')
-alert("Javascript index.js connected!")
+alert("Thanks for visiting my page!")
