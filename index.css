@@ -6,10 +6,10 @@ body{
 }
 
 .container{
-    /* background: whitesmoke; */
-    background: black;
-    /* color: rgb(15,15,15); */
-    color: rgb(255,255,255);
+    /* background: black; */
+    /* color: rgb(255,255,255); */
+    background: whitesmoke;
+    color: rgb(15,15,15);
     padding:100px
 }
 
