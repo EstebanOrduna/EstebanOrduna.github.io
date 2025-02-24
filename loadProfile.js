@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     document.getElementById('nombre').innerText = profile.name;
     document.getElementById('titulo').innerText = profile.title;
+    document.getElementById('intro').innerText = profile.intro;
     document.getElementById('experiencia').innerText = profile.experience;
     
     let serviciosLista = document.getElementById('lista-servicios');
@@ -17,8 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('email').innerText = profile.email;
     document.getElementById('email').href = `mailto:${profile.email}`;
+    
     document.getElementById('whatsapp').innerText = 'Enviar mensaje';
     document.getElementById('whatsapp').href = `https://wa.me/${profile.whatsapp}`;
+
     document.getElementById('linkedin').innerText = 'Ver Perfil';
     document.getElementById('linkedin').href = profile.linkedin;
 });

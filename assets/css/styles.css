@@ -15,17 +15,12 @@ header {
 
 /* Estilo para la imagen de perfil */
 .profile-pic {
-    /* width: 20%; Ajusta el tamaño de la imagen según sea necesario */
-    /* height: 200px; */
-    width: 200px; /* Ancho fijo de la imagen */
-    height: 200px; /* Alto fijo de la imagen para que sea un círculo */
-    max-width: 20%;
-    max-height: 200px;
+    width: 15%; /* Ancho fijo de la imagen */
+    height: 15%; /* Alto fijo de la imagen para que sea un círculo */
     object-fit: cover; /* Asegura que la imagen mantenga la proporción sin distorsionarse */
     border-radius: 50%; /* Redondea la imagen para un look profesional */
     border: 4px solid #fff; /* Agrega un borde blanco alrededor de la imagen */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para un efecto de profundidad */
-    margin-bottom: 20px; /* Espacio inferior */
 }
 
 section {
