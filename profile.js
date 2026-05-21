@@ -3,7 +3,7 @@ const profile = {
     name: "Esteban Orduña",
     title: "QA Automation Engineer · SDET",
     tags: ["Ing. Mecatrónico", "LSS Black Belt", "MSc. Manufactura", "MC. TIC"],
-    intro: "Comencé como ingeniero de procesos industriales. Con el tiempo me obsesioné con eliminar el trabajo repetitivo: primero con Excel, luego con Python, automatizando mis propias actividades. Lo que aprendí en ese camino me llevó a especializarme en software y a fundar EO Automations. Hoy ayudo a empresas a identificar y eliminar sus cuellos de botella, entendiendo tanto el lado técnico como el operativo.",
+    intro: "Comencé como ingeniero de procesos industriales. Con el tiempo me obsesioné con eliminar el trabajo repetitivo: primero con Excel, luego con Python, automatizando mis propias actividades. Lo que aprendí en ese camino me llevó a especializarme en software y a fundar EO Automations. Desde finales de 2025 trabajo principalmente dirigiendo agentes de IA —como Claude Code— para diseñar, construir y entregar soluciones. Es una forma de desarrollar más rápida que, bien dirigida, produce resultados rigurosos. Hoy ayudo a empresas a identificar y eliminar sus cuellos de botella, entendiendo tanto el lado técnico como el operativo.",
     experience: [
         { icon: "fa-graduation-cap", text: "Ing. en Mecatrónica – Universidad TecMilenio" },
         { icon: "fa-graduation-cap", text: "MSc. Sistemas de Manufactura – ITESM (Tec de Monterrey)" },
@@ -13,9 +13,10 @@ const profile = {
         { icon: "fa-laptop-code",    text: "SDET (Software Developer Engineer in Test)" }
     ],
     services: [
-        { icon: "fa-robot",      name: "Automatización de procesos",  desc: "" },
-        { icon: "fa-chart-line", name: "Consultoría de procesos",     desc: "" },
-        { icon: "fa-camera",     name: "Fotografía",                  desc: "Proyectos selectivos según disponibilidad" }
+        { icon: "fa-wand-magic-sparkles", name: "Desarrollo dirigido por IA", desc: "Diseño y entrega de soluciones usando agentes como Claude Code — desde MVPs hasta automatizaciones complejas" },
+        { icon: "fa-robot",               name: "Automatización de procesos",  desc: "RPA, scripts y flujos que eliminan trabajo repetitivo de alto volumen" },
+        { icon: "fa-chart-line",          name: "Consultoría de procesos",     desc: "Diagnóstico e identificación de cuellos de botella operativos" },
+        { icon: "fa-camera",              name: "Fotografía",                  desc: "Proyectos selectivos según disponibilidad" }
     ],
     projects: [
         {
