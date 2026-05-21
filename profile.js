@@ -1,9 +1,9 @@
 const profile = {
     image: "bw.jpeg",
     name: "Esteban Orduña",
-    title: "QA Automation Engineer · SDET",
+    title: "QA Automation Engineer · Lean Practitioner",
     tags: ["Ing. Mecatrónico", "LSS Black Belt", "MSc. Manufactura", "MC. TIC"],
-    intro: "Comencé como ingeniero de procesos industriales. Con el tiempo me obsesioné con eliminar el trabajo repetitivo: primero con Excel, luego con Python, automatizando mis propias actividades. Lo que aprendí en ese camino me llevó a especializarme en software y a fundar EO Automations. Desde finales de 2025 trabajo principalmente dirigiendo agentes de IA —como Claude Code— para diseñar, construir y entregar soluciones. Es una forma de desarrollar más rápida que, bien dirigida, produce resultados rigurosos. Hoy ayudo a empresas a identificar y eliminar sus cuellos de botella, entendiendo tanto el lado técnico como el operativo.",
+    intro: "Comencé como ingeniero de procesos con una obsesión simple: si algo puede no hacerse, mejor no hacerlo; si debe hacerse, que sea fácil de repetir. Esa mentalidad me llevó de Excel a Python, y de ahí a dirigir agentes de IA. No busco hacer más cosas — busco hacer las correctas de la forma más simple posible. Desde finales de 2025 construyo soluciones principalmente dirigiendo IA: defino el problema, cuestiono el plan y valido el resultado.",
     experience: [
         { icon: "fa-graduation-cap", text: "Ing. en Mecatrónica – Universidad TecMilenio" },
         { icon: "fa-graduation-cap", text: "MSc. Sistemas de Manufactura – ITESM (Tec de Monterrey)" },
@@ -33,9 +33,9 @@ const profile = {
         },
         {
             name: "Portal de operaciones",
-            desc: "Migración de sistema operativo basado en hojas de cálculo a portal web para empresa de logística. Login con roles, CRUD de empleados y unidades, registro de operaciones, CI/CD automatizado y deploy en infraestructura propia del cliente.",
+            desc: "Migración de sistema operativo basado en hojas de cálculo a portal web. Login con roles, CRUD de empleados y unidades, registro de operaciones, CI/CD automatizado y deploy en infraestructura propia.",
             stack: ["Next.js", "TypeScript", "Prisma", "Docker", "GitHub Actions"],
-            type: "cliente"
+            type: "personal"
         }
     ],
     // Email split to avoid scraper harvesting from public repo source

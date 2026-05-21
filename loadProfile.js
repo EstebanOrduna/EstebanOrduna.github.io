@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
         div.innerHTML = `
             <div class="project-header">
                 <span class="project-name">${proj.name}</span>
-                <span class="project-badge ${proj.type}">${proj.type === "cliente" ? "Proyecto con cliente" : "Proyecto personal"}</span>
             </div>
             <p class="project-desc">${proj.desc}</p>
             <div class="project-stack">
