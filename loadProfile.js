@@ -31,6 +31,22 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("servicios-grid").appendChild(div);
     });
 
+    profile.projects.forEach(proj => {
+        const div = document.createElement("div");
+        div.className = "project-card fade-in";
+        div.innerHTML = `
+            <div class="project-header">
+                <span class="project-name">${proj.name}</span>
+                <span class="project-badge ${proj.type}">${proj.type === "cliente" ? "Proyecto con cliente" : "Proyecto personal"}</span>
+            </div>
+            <p class="project-desc">${proj.desc}</p>
+            <div class="project-stack">
+                ${proj.stack.map(t => `<span class="stack-tag">${t}</span>`).join("")}
+            </div>
+        `;
+        document.getElementById("proyectos-lista").appendChild(div);
+    });
+
     document.getElementById("linkedin-hero").href = profile.linkedin;
     document.getElementById("linkedin-contact").href = profile.linkedin;
 

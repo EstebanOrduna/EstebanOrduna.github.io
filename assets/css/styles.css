@@ -192,6 +192,68 @@ body {
 }
 .timeline-item p { font-size: .95rem; color: var(--text); }
 
+/* ── Projects ── */
+.projects-list { display: flex; flex-direction: column; gap: 1.25rem; }
+.project-card {
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 1.5rem 1.75rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    transition: transform .2s, box-shadow .2s;
+}
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+.project-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: .6rem;
+}
+.project-name {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text);
+}
+.project-badge {
+    font-size: .7rem;
+    font-weight: 600;
+    padding: .2rem .65rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    letter-spacing: .02em;
+}
+.project-badge.personal {
+    background: var(--bg-alt);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+}
+.project-badge.cliente {
+    background: var(--accent);
+    color: #fff;
+}
+.project-desc {
+    color: var(--text-muted);
+    font-size: .9rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+.project-stack { display: flex; flex-wrap: wrap; gap: .4rem; }
+.stack-tag {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    padding: .18rem .55rem;
+    border-radius: 6px;
+    font-size: .75rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    font-family: 'SFMono-Regular', Consolas, monospace;
+}
+
 /* ── Services ── */
 .services-grid {
     display: grid;
