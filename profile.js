@@ -9,8 +9,7 @@ const profile = {
         { icon: "fa-graduation-cap", text: "MSc. Sistemas de Manufactura – ITESM (Tec de Monterrey)" },
         { icon: "fa-graduation-cap", text: "MC. Tecnologías de la Información – IEXETEC" },
         { icon: "fa-certificate",    text: "Lean Six Sigma Black Belt" },
-        { icon: "fa-code",           text: "QA Automation Engineer" },
-        { icon: "fa-laptop-code",    text: "SDET (Software Developer Engineer in Test)" }
+        { icon: "fa-code",           text: "QA Automation Engineer" }
     ],
     services: [
         { icon: "fa-wand-magic-sparkles", name: "Desarrollo dirigido por IA", desc: "Diseño y entrega de soluciones usando agentes como Claude Code — desde MVPs hasta automatizaciones complejas" },
