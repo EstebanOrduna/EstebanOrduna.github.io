@@ -1,7 +1,7 @@
 const profile = {
     image: "bw.jpeg",
     name: "Esteban Orduña",
-    title: "QA Automation Engineer · AI Process Engineer",
+    title: "Agentic Process & QA Automation Engineer",
     tags: ["Ing. Mecatrónico", "LSS Black Belt", "MSc. Manufactura", "MC. TIC"],
     intro: "Comencé como ingeniero de procesos con una obsesión simple: si algo puede no hacerse, mejor no hacerlo; si debe hacerse, que sea fácil de repetir. Esa mentalidad me llevó de Excel a Python, y de ahí a dirigir agentes de IA. No busco hacer más cosas — busco hacer las correctas de la forma más simple posible. Desde finales de 2025 construyo soluciones principalmente dirigiendo IA: defino el problema, cuestiono el plan y valido el resultado.",
     experience: [
