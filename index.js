@@ -1,2 +1,1 @@
-console.log('Javascript file is working.')
-alert("Thanks for visiting my page!")
+// Legacy file – not loaded by index.html
