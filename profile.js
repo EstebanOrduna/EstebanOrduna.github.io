@@ -3,7 +3,7 @@ const profile = {
     name: "Esteban Orduña",
     title: "QA Automation Engineer · SDET",
     tags: ["Ing. Mecatrónico", "LSS Black Belt", "MSc. Manufactura", "MC. TIC"],
-    intro: "Comencé como ingeniero de procesos industriales. Con el tiempo me obsesioné con eliminar el trabajo repetitivo: primero con Excel, luego con Python, automatizando mis propias actividades hasta que el resultado habló solo. Esa experiencia me llevó a especializarme en software y a fundar EO Automations. Hoy ayudo a empresas a identificar y eliminar sus cuellos de botella desde adentro, entendiendo tanto el lado técnico como el operativo.",
+    intro: "Comencé como ingeniero de procesos industriales. Con el tiempo me obsesioné con eliminar el trabajo repetitivo: primero con Excel, luego con Python, automatizando mis propias actividades. Lo que aprendí en ese camino me llevó a especializarme en software y a fundar EO Automations. Hoy ayudo a empresas a identificar y eliminar sus cuellos de botella, entendiendo tanto el lado técnico como el operativo.",
     experience: [
         { icon: "fa-graduation-cap", text: "Ing. en Mecatrónica – Universidad TecMilenio" },
         { icon: "fa-graduation-cap", text: "MSc. Sistemas de Manufactura – ITESM (Tec de Monterrey)" },
@@ -20,13 +20,13 @@ const profile = {
     projects: [
         {
             name: "AutoMate – Framework RPA",
-            desc: "Framework de automatización robótica de procesos construido en Python. Arquitectura modular con motores intercambiables (Playwright, Selenium, Excel) que desacopla la lógica de negocio de la tecnología subyacente. Incluye gestión centralizada de credenciales y configuración por cliente.",
+            desc: "Framework de automatización robótica de procesos en desarrollo. Arquitectura modular con motores intercambiables (Playwright, Selenium, Excel) que desacopla la lógica de negocio de la tecnología subyacente. Incluye gestión centralizada de credenciales y configuración por cliente.",
             stack: ["Python", "Flask", "Playwright", "Selenium", "PyInstaller"],
             type: "personal"
         },
         {
             name: "Agente AI local",
-            desc: "Asistente de codificación autohospedable pensado para equipos que necesitan apoyo de IA sin enviar código a servidores externos. Soporta múltiples LLMs locales vía Ollama con sistema de herramientas, contexto persistente y plugins.",
+            desc: "Proyecto en desarrollo: asistente de codificación autohospedable para equipos que necesitan apoyo de IA sin enviar código a servidores externos. Soporta múltiples LLMs locales vía Ollama con sistema de herramientas y contexto persistente.",
             stack: ["TypeScript", "Node.js", "Ollama"],
             type: "personal"
         },
