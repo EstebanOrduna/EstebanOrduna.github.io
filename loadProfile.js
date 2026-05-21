@@ -23,17 +23,51 @@ document.addEventListener("DOMContentLoaded", function () {
     profile.services.forEach(svc => {
         const div = document.createElement("div");
         div.className = "service-card fade-in";
-        div.innerHTML = `<i class="fas ${svc.icon}"></i><p>${svc.name}</p>`;
+        div.innerHTML = `
+            <i class="fas ${svc.icon}"></i>
+            <span class="service-name">${svc.name}</span>
+            ${svc.desc ? `<span class="service-desc">${svc.desc}</span>` : ""}
+        `;
         document.getElementById("servicios-grid").appendChild(div);
     });
 
-    const email = profile.email.join("@");
-    const emailEl = document.getElementById("email-link");
-    emailEl.href = `mailto:${email}`;
-    document.getElementById("email-text").textContent = email;
-
     document.getElementById("linkedin-hero").href = profile.linkedin;
     document.getElementById("linkedin-contact").href = profile.linkedin;
+
+    // Contact form via Formspree
+    const form = document.getElementById("contact-form");
+    const status = document.getElementById("form-status");
+    form.action = `https://formspree.io/f/${profile.formspreeId}`;
+
+    form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+        const btn = form.querySelector("button[type=submit]");
+        btn.disabled = true;
+        btn.textContent = "Enviando...";
+        status.className = "form-status";
+        status.textContent = "";
+
+        try {
+            const res = await fetch(form.action, {
+                method: "POST",
+                body: new FormData(form),
+                headers: { Accept: "application/json" }
+            });
+            if (res.ok) {
+                form.reset();
+                status.className = "form-status success";
+                status.textContent = "¡Mensaje enviado! Te respondo pronto.";
+                btn.textContent = "Enviado ✓";
+            } else {
+                throw new Error();
+            }
+        } catch {
+            status.className = "form-status error";
+            status.textContent = "Hubo un error al enviar. Intenta de nuevo.";
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-paper-plane"></i> Enviar mensaje';
+        }
+    });
 
     const observer = new IntersectionObserver(
         entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("visible"); }),

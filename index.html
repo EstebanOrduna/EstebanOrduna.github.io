@@ -67,15 +67,31 @@
         <div class="container">
             <h2 class="section-title">Contacto</h2>
             <p class="section-text">¿Tienes un proyecto o necesitas asesoría? Escríbeme.</p>
-            <div class="contact-links">
-                <a id="email-link" href="#" class="contact-card">
-                    <i class="fas fa-envelope"></i>
-                    <span id="email-text">Email</span>
-                </a>
-                <a id="linkedin-contact" href="#" class="contact-card" target="_blank" rel="noopener">
-                    <i class="fab fa-linkedin"></i>
-                    <span>LinkedIn</span>
-                </a>
+            <div class="contact-layout">
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="cf-name">Nombre</label>
+                        <input type="text" id="cf-name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="cf-email">Correo</label>
+                        <input type="email" id="cf-email" name="email" required placeholder="tu@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="cf-message">Mensaje</label>
+                        <textarea id="cf-message" name="message" required rows="4" placeholder="Cuéntame sobre tu proyecto..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-filled">
+                        <i class="fas fa-paper-plane"></i> Enviar mensaje
+                    </button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+                <div class="contact-side">
+                    <a id="linkedin-contact" href="#" class="contact-card" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Conectar en LinkedIn</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
