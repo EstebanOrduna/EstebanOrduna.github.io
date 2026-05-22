@@ -4,14 +4,27 @@ Referencia para mantener consistencia al agregar nuevas secciones o componentes.
 
 ---
 
-## Filosofía
+## Personalidad de diseño: Athletic Dark
 
-**Bold, oscuro, funcional.** Un acento fuerte sobre negro profundo.  
-Sin decoración innecesaria. Lo que aparece tiene un propósito.  
-Alto contraste porque la información debe leerse de inmediato.  
-Energía contenida — no caótica, sino estructurada.
+> Definición completa en `EO-Automations/desarrollo/contexts/domains/design/personalities/athletic-dark.md`
 
-**Regla de oro:** Un solo color de acento (naranja). Si algo necesita destacar, usa naranja. Si no necesita destacar, usa la escala de grises oscuros.
+**Qué expresa:** Energía contenida. La confianza de alguien que sabe lo que hace y no necesita gritarlo. Disciplina — no caos. Competencia técnica con carácter.
+
+**Qué NO expresa:** Corporativo, suave, decorativo, neutral, institucional.
+
+**Cómo debe sentirse el visitante:** "Esta persona sabe lo que hace. Es honesto y va al punto. No es el típico perfil de LinkedIn."
+
+**Referentes:** Branding NBA/MMA, equipamiento técnico profesional, setups de trabajo nocturno, uniformes de artes marciales — simples, funcionales, con identidad clara.
+
+---
+
+## Filosofía técnica
+
+**Bold, oscuro, funcional.** Un acento fuerte sobre negro profundo.
+Sin decoración innecesaria. Lo que aparece tiene un propósito.
+Alto contraste porque la información debe leerse de inmediato.
+
+**Regla de oro:** Un solo color de acento (naranja). Si algo necesita destacar, usa naranja. Si no, usa la escala de grises oscuros.
 
 ---
 
